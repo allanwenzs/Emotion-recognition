@@ -22,7 +22,7 @@ EMOTIONS = ["angry" ,"disgust","scared", "happy", "sad", "surprised",
 
 # starting video streaming
 cv2.namedWindow('your_face')
-# Saved video frmae/file, you can uncoment the next line code and provide the your path
+# For a Saved video frame/file, you can uncoment the next line code and provide your file path
 #camera = cv2.VideoCapture('src/WhatsApp Video 2019-05-02 at 23.22.09.mp4', 0)
 camera = cv2.VideoCapture(0)
 while True:
